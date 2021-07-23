@@ -552,6 +552,25 @@ section .title::after {
     margin-bottom: 10px;
 }
 
+.column_right {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.column_right {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    height: 200px;
+}
+
+.column_right_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .contact .contact-content .left p {
     text-align: justify;
 }
