@@ -327,7 +327,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
     background: #111;
-    content: "what i provide";
+    content: "what i build";
 }
 
 .services .serv-content .card {
@@ -690,7 +690,14 @@ footer span a:hover {
     text-decoration: underline;
 }
 
-
+.project-demo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-right: 30px;
+    margin-left: 30px;
+}
 /* responsive media query start */
 
 @media (max-width: 1104px) {
